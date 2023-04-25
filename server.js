@@ -1,6 +1,6 @@
-const app = require('./app');
+const app = require('./backend/app');
 const path = require('path');
-const connectDatabase = require('./config/database');
+const connectDatabase = require('./backend/config/database');
 
 
 connectDatabase();
