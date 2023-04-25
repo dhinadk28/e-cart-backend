@@ -9,6 +9,9 @@
     "prod": "set NODE_ENV=production&&nodemon backend/server.js",
     "seeder": "node backend/utils/seeder.js"
   },
+  "engines":{
+    "node": ">=16.0.0"
+  },
   "author": "dhina",
   "license": "ISC",
   "dependencies": {
